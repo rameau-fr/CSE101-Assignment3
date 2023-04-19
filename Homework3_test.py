@@ -38,7 +38,7 @@ class Testing(unittest.TestCase):
         ind3 = jumpSearch(lst, 4) # --> None
         self.assertEqual(None, ind3)
 
-    def test_jumpSearch1(self):
+    def test_jumpSearch4(self):
         lst = [5, 18, 34, 56, 78, 88, 98, 100, 500, 1000, 2000, 2200]
         ind4 = jumpSearch(lst, 79) # --> None
         self.assertEqual(None, ind4)
